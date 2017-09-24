@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+mainClassName = 'example.MyApp'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+//	compile('org.springframework.boot:spring-boot-starter')
+}
